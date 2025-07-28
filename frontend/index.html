@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shikhar's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <!-- 🌟 Header Navigation -->
+  <header class="navbar">
+    <div class="logo">Shikhar <span class="highlight">Portfolio</span></div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- 👋 Home Section -->
+  <section id="home" class="hero-section">
+    <div class="home-container">
+      <!-- Left Side -->
+      <div class="hero-left">
+        <h1>Hi, I'm Shikhar Singh</h1>
+        <h2 class="typing-text">A passionate <span id="typed-text"></span><span class="cursor">|</span></h2>
+        <p class="summary">
+          I specialize in Artificial Intelligence, using my skills to perform tasks quickly and effectively. I'm well-versed in modern technologies like NestJS, MongoDB, Vertex AI, prompt designing, and software development. I enjoy turning innovative ideas into intelligent, interactive solutions.
+        </p>
+        <button onclick="window.open('resume.pdf')">Download Resume</button>
+      </div>
+
+      <!-- Right Side -->
+      <div class="hero-right">
+        <model-viewer 
+          src="assets/laptop.glb" 
+          auto-rotate 
+          camera-controls 
+          style="width: 100%; max-width: 500px; height: 500px;" 
+          alt="3D Laptop Model">
+        </model-viewer>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🧑‍💼 About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I’m a versatile Web Developer, Prompt Designer, and Software Engineer passionate about creating modern, user-centric digital experiences. I thrive at the intersection of creativity and technology — building responsive, performant, and accessible applications that deliver real value.
+      <br><br>
+      With hands-on experience in both frontend and backend development, I specialize in technologies such as HTML, CSS, JavaScript, Node.js, and MongoDB. I enjoy transforming complex problems into elegant solutions, and I’m constantly seeking opportunities to innovate and optimize.
+      <br><br>
+      Recently, I completed a specialization in Data Analysis and Visualization, which has further strengthened my ability to work with data-driven applications and make informed design decisions. I also actively experiment with tools like Vertex AI and LLM prompt engineering to stay ahead in the AI-driven development landscape.
+      <br><br>
+      I believe in continuous learning, collaborative problem-solving, and crafting code that’s not just functional, but also efficient and scalable. Whether it's building web platforms, designing intuitive user flows, or integrating intelligent systems — I love turning bold ideas into reality.
+    </p>
+  </section>
+
+  <!-- 🚂 Skills Section -->
+  <section id="skills" class="section">
+    <h2>My Skills</h2>
+    <div class="railway-track">
+      <div class="skill"><img src="assets/html-5.png" alt="HTML"><p>HTML</p></div>
+      <div class="skill"><img src="assets/css-3.png" alt="CSS"><p>CSS</p></div>
+      <div class="skill"><img src="assets/java-script.png" alt="JavaScript"><p>JavaScript</p></div>
+      <div class="skill"><img src="assets/node-js.png" alt="NodeJS"><p>NodeJS</p></div>
+      <div class="skill"><img src="assets/database-storage.png" alt="MongoDB"><p>MongoDB</p></div>
+      <div class="skill"><img src="assets/php.png" alt="PHP"><p>PHP</p></div>
+      <div class="skill"><img src="assets/exploration.png" alt="Prompt Design"><p>Prompt Design</p></div>
+      <div class="skill"><img src="assets/development.png" alt="Software Dev"><p>Software Dev</p></div>
+      <div class="skill"><img src="assets/python.png" alt="Python"><p>Python</p></div>
+      <div class="skill"><img src="assets/dashboard.png" alt="Tableau"><p>Tableau</p></div>
+      <div class="skill"><img src="assets/sql-server.png" alt="My SQL"><p>My SQL</p></div>
+      <div class="skill"><img src="assets/excel.png" alt="Excel"><p>MS Excel</p></div>
+      <div class="skill"><img src="assets/powerpoint.png" alt="Power Point"><p>MS Powerpoint</p></div>
+    </div>
+  </section>
+
+  <!-- 🛠️ Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <p>Here are some of my personal and academic projects:</p>
+    <ul>
+      <li><strong>Online Exam System:</strong> User-friendly interface with time limitation and separate section for Students and Admin with secure login credentials, host exams easily.</li>
+      <li><strong>Portfolio Website:</strong> 3D animations, modern UI.</li>
+    </ul>
+  </section>
+
+  <!-- ===== Certification Section ===== -->
+  <section id="certifications" class="section">
+    <h2 class="section-title">Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-item">
+        <a href="https://www.credly.com/badges/91f243cb-f371-49a7-8e2f-6444d3c4afe5/linked_in_profile" target="_blank">
+          <img src="assets/image.png" alt="Certificate 1" class="cert-img" />
+        </a>
+        <p class="cert-title">Prompt Designing By Vertex AI in Google Cloud Console</p>
+      </div>
+      <div class="cert-item">
+        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_RSySpu6F8HvEoWm9H_1752660312227_completion_certificate.pdf" target="_blank">
+          <img src="assets/delo.png" alt="Certificate 2" class="cert-img" />
+        </a>
+        <p class="cert-title">Data Analytics Job Simulation</p>
+      </div>
+      <div class="cert-item">
+        <a href="https://courses.srmcem.skillsnetwork.site/certificates/d2afc33c74564913b56bdbc552903278" target="_blank">
+          <img src="assets/ibm.png" alt="Certificate 3" class="cert-img" />
+        </a>
+        <p class="cert-title">Data Science Methodology</p>
+      </div>
+    </div>
+  </section>
+
+ <!-- 📞 Contact Section -->
+<section id="contact" class="section contact-section">
+  <div class="contact-container">
+    <div class="contact-form">
+      <h2>Contact Me</h2>
+      <form id="contact-form" action="http://localhost:5000/api/contact" method="POST">
+        <input type="text" id="name" name="name" placeholder="Your Name" required /><br>
+        <input type="email" id="email" name="email" placeholder="Your Email" required /><br>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea><br>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div class="contact-animation">
+      <lottie-player 
+        src="assets/sun.json" 
+        background="transparent" 
+        speed="1" 
+        loop 
+        autoplay>
+      </lottie-player>
+    </div>
+  </div>
+</section>
+
+  <!-- 🔗 Footer Social Links -->
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/shikhar-singh-138a8330a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/_shikharsingh___/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>© 2025 Shikhar Portfolio. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
